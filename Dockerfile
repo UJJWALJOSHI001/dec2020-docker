@@ -1,4 +1,4 @@
-FROM centos
+FROM centos:centos7
 LABEL MAINTAINER=ujjwal@linux.com
 ENV x app
 RUN yum install httpd -y
